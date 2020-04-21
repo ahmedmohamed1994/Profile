@@ -6,7 +6,7 @@ import Routes from './Routes';
 class App extends Component {
   render(){
     return (
-      <BrowserRouter >
+      <BrowserRouter basename="/profile/">
       <div className="App">
         <Layout>
        

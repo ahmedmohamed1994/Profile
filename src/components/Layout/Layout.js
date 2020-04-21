@@ -7,7 +7,6 @@ import Footer from './Common/Footer/Footer'
        <Header />
         <main>{props.children}</main>
         <Footer />
-
     </Aux>
  )
  export default layout;
